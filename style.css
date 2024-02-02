@@ -254,6 +254,10 @@ textarea{
         display:flex;
         flex-direction: column;
     }
+    a{
+        display: flex;
+        flex-direction: column;
+    }
     .textimage{
         display: block;
     }

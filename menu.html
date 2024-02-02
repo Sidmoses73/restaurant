@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidmoses Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="top">
+                <div class="logo"><img src="log.png" alt=""></div>
+                <div id="nav">
+                    <a class="btn active" href="index.html">Home</a>
+                    <a class="btn"  href="about-us.html">About us</a>
+                    <a class="btn" href="menu.html">Menu</a>
+                    <a class="btn" href="contact-us.html">Contact Us</a>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="signup">SIGN UP</div>
+            </div>
+        </header>
+        <h1>Menu</h1>
+        <h1>CONTACT US</h1>
+        <div class="contact">
+            <div class="conimage">
+                <P>Need to get in touch, fill the form or call our number 08033187992</P>
+                <img class="fimage" src="cake.png" alt="footer image">
+            </div>
+            <div class="contactform">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message..."></textarea>
+                  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                  &nbsp; &nbsp;   <button class="txtbtn" type="button">Send your Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="socialmedia"></div>
+        <div class="footer"><p id="demo"></p></div>
+    
+    </div>
+    <script>
+        // The footer date and credit start here
+            let d = new Date();
+        document.getElementById("demo").innerHTML ="Copyright Sidmoses Technology &COPY;" + d.getFullYear() + "." + " Powered by Moses Ahonmisi";
+      </script>
+
+    <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("nav");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+          });
+        }
+        </script>
+
+</body>
+</html>

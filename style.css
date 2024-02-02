@@ -127,6 +127,10 @@ h1{
 .menu3:hover{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
 }
+.mimage{
+    width: 100%;
+    height: auto;
+}
 .pricestar{
     display: flex;
 }

@@ -84,7 +84,7 @@ h1{
 }
 .imagetext{
     display: flex;
-    padding: 16PX;
+    padding: 16px;
 }
 .food2{
     flex-basis: 50%;
@@ -307,10 +307,12 @@ textarea{
             width: 100%;
         }
         .menus{
-        width:80%;
+          width:80%;
+            padding:16px
         }
         .blog{
             width:70%;
+            padding:14px;
         }
         .contact{
             width: 100%;

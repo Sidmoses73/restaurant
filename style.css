@@ -186,6 +186,8 @@ h1{
 }
 .bimage{
     border-radius:50%;
+    width:100%;
+    height:auto;
 }
 .contact{
     display: flex;
@@ -311,12 +313,11 @@ textarea{
             width: 100%;
         }
         .menus{
-          width:90%;
+          width:100%;
             padding:16px
         }
         .blog{
-            width:90%;
-            padding:14px;
+            width:100%;
         }
         .contact{
             width: 100%;

@@ -307,16 +307,11 @@ textarea{
             width: 100%;
         }
         .menus{
-        display: flex;
-        flex-direction:column;
-        flex-grow: ;
-        flex-shrink: ;
+        width:100%;
         }
         .blog{
             display: flex;
             flex-direction:column;
-            flex-grow: ;
-            flex-shrink: ;
         }
         .contact{
             width: 100%;

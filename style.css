@@ -297,8 +297,7 @@ textarea{
     }
     @media only screen and (max-width: 1025px) {
         .top{
-            display: flex;
-            flex-direction:column;
+            width:100%;
         }
         .textimage{
             width: 100%;
@@ -310,8 +309,7 @@ textarea{
         width:100%;
         }
         .blog{
-            display: flex;
-            flex-direction:column;
+            width:100%;
         }
         .contact{
             width: 100%;
